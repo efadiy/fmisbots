@@ -12,6 +12,9 @@
     background-size: cover;
     -o-background-size: cover;
     user-select: none;
+    width: 100vw;
+    min-height: 100vh;
+    overflow-x: hidden;
 }
 
 h1,
@@ -88,6 +91,7 @@ hr {
     background: #fff;
     background: rgba(255,255,255,0.9);
     user-select: none;
+    padding-left: 0;
 }
 
 .intro-text {
@@ -243,7 +247,10 @@ color: #444444;
     color: #444444;
     font-size: 32px;
     font-family: lalezar;
+    width: 100%;
+    overflow: hidden;
  }
+
  .text.sec-text::before{
     content: "";
     position: absolute;
@@ -264,3 +271,8 @@ color: #444444;
         left: 0%;
     }
  }
+ * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
