@@ -231,7 +231,7 @@ user-select: none;
  .container .text{
     position: relative;
     color: #444444;
-    font-size: 32px;
+    font-size: 33px;
     font-weight: 600;
     font-family: lalezar;
  }
@@ -262,3 +262,14 @@ user-select: none;
         left: 0%;
     }
  }
+
+b{
+    font-size: 15px;
+    font-family: iransansdn;
+}
+
+@font-face {
+    font-family: iransansdn;
+    src: url("Iranian Sans.ttf");
+    }
+
