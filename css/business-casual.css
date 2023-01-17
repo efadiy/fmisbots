@@ -219,3 +219,46 @@ direction: rtl;
 user-select: none;
  }
 
+ .container{
+
+ }
+ .container{
+    width: 100%;
+    font-family : iransansdn;
+    margin-right: auto;
+    color: #444444;
+ }
+ .container .text{
+    position: relative;
+    color: #444444;
+    font-size: 32px;
+    font-weight: 600;
+    font-family: lalezar;
+ }
+ .container .text.first-text{
+    color: #444444;
+    font-size: 32px;
+    font-family: lalezar;
+    width: 100%;
+    overflow: hidden;
+ }
+ .text.sec-text::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color:  #e9edf3;
+    border-left: 4px solid #444444;
+    animation: animate 6s steps(12) infinite;
+    font-family: lalezar;
+ }
+ @keyframes animate{
+    40%, 60%{
+        left: 100%;
+    }
+    100%{
+        left: 0%;
+    }
+ }
