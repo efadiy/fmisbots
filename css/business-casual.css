@@ -5,8 +5,8 @@
  */
 
 body {
-    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
-    background: rgb(35, 75, 138);
+    font-family: lalezar;
+    background: #81c7c7;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -84,8 +84,8 @@ hr {
 .box {
     margin-bottom: 20px;
     padding: 30px 15px;
-    background: #fff;
-    background: rgba(255,255,255,0.9);
+    background: rgb(126, 153, 183);
+    background: #eff4f4;
     user-select: none;
 }
 
@@ -170,8 +170,8 @@ footer p {
 
     .navbar-default {
         border: none;
-        background: #fff;
-        background: rgba(255,255,255,0.9);
+        background: white;
+        background: white;
     }
 
     .nav>li>a {
@@ -200,7 +200,7 @@ footer p {
 }
 
 h2{
-    font-family: iransans;
+    font-family: lalezar;
     font-size: 60;
     color: rgb(35, 75, 138);
     line-height: 0px;
@@ -213,7 +213,7 @@ h2{
   src: url("Iranian Sans.ttf");
   }
   body {
-font-family: iransans;
+font-family: lalezar;
 direction: rtl;
 user-select: none;
  }
@@ -229,7 +229,7 @@ user-select: none;
     color: #444444;
     font-size: 38px;
     font-weight: 600;
-    font-family: lalezar;
+    
 }
 .container .text.first-text{
     color: #444444;
@@ -242,7 +242,7 @@ user-select: none;
     left: 0;
     height: 100%;
     width: 100%;
-    background-color:  #e9edf3;
+    background-color:  #eff4f4;
     border-left: 4px solid #444444;
     animation: animate 4s steps(12) infinite;
     margin-top: 1px;
@@ -262,7 +262,9 @@ b{
 }
 
 @font-face {
-    font-family: iransansdn;
-    src: url("Iranian Sans.ttf");
+    font-family: lalezar;
+    font-style: normal;
+    font-weight: 950;
+    src: url("fonts/Lalezar.ttf");
+    src: url("fonts/Lalezar.woff") format(woff);
     }
-
