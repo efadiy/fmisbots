@@ -15,7 +15,6 @@ body {
 }
 
 h1,
-h2,
 h3,
 h4,
 h5,
@@ -207,7 +206,7 @@ h2{
     line-height: 0px;
     text-align: center;
     user-select: none;
-    height: 90px;
+    height: 45px;
 }
 @font-face {
   font-family: iranian sans;
@@ -219,30 +218,24 @@ direction: rtl;
 user-select: none;
  }
 
- .container{
-
- }
- .container{
-    width: 100%;
-    font-family : iransansdn;
+.container{
+    position: relative;
     margin-right: auto;
+    width: 100%;
     color: #444444;
- }
- .container .text{
+}
+.container .text{
     position: relative;
     color: #444444;
-    font-size: 33px;
+    font-size: 38px;
     font-weight: 600;
     font-family: lalezar;
- }
- .container .text.first-text{
+}
+.container .text.first-text{
     color: #444444;
-    font-size: 32px;
-    font-family: lalezar;
-    width: 100%;
-    overflow: hidden;
- }
- .text.sec-text::before{
+    font-size: 30px;
+}
+.text.sec-text::before{
     content: "";
     position: absolute;
     top: 0;
@@ -251,17 +244,17 @@ user-select: none;
     width: 100%;
     background-color:  #e9edf3;
     border-left: 4px solid #444444;
-    animation: animate 6s steps(12) infinite;
-    font-family: lalezar;
- }
- @keyframes animate{
+    animation: animate 4s steps(12) infinite;
+    margin-top: 1px;
+}
+@keyframes animate{
     40%, 60%{
         left: 100%;
     }
     100%{
         left: 0%;
     }
- }
+}
 
 b{
     font-size: 15px;
