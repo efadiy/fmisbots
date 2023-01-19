@@ -5,7 +5,7 @@
  */
 
 body {
-    font-family: lalezar;
+
     background: #81c7c7;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -206,17 +206,21 @@ h2{
     line-height: 0px;
     text-align: center;
     user-select: none;
-    height: 45px;
+    height: 6px;
 }
+
 @font-face {
-  font-family: iranian sans;
-  src: url("Iranian Sans.ttf");
-  }
-  body {
-font-family: lalezar;
-direction: rtl;
-user-select: none;
- }
+    font-family: lalezar;
+    font-style: normal;
+    font-weight: 950;
+    src: url('../fonts/Lalezar.ttf') format('truetype'),
+         url("../fonts/Lalezar.woff") format('woff');
+    }
+    body {
+  font-family: lalezar;
+  direction: rtl;
+  user-select: none;
+   }
 
 .container{
     position: relative;
@@ -239,20 +243,22 @@ user-select: none;
     content: "";
     position: absolute;
     top: 0;
-    left: 0;
+    right: 0;
     height: 100%;
     width: 100%;
     background-color:  #eff4f4;
-    border-left: 4px solid #444444;
-    animation: animate 4s steps(12) infinite;
+    border-right: 6px solid #444444;
+    animation: animate 5s steps(12) infinite;
     margin-top: 1px;
 }
 @keyframes animate{
     40%, 60%{
-        left: 100%;
+        right: 100%;
+        width: 0%;
     }
     100%{
-        left: 0%;
+        right: 0%;
+        width: 100%;
     }
 }
 
@@ -261,10 +267,3 @@ b{
     font-family: iransansdn;
 }
 
-@font-face {
-    font-family: lalezar;
-    font-style: normal;
-    font-weight: 950;
-    src: url("fonts/Lalezar.ttf");
-    src: url("fonts/Lalezar.woff") format(woff);
-    }
