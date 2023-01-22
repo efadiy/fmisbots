@@ -26,11 +26,6 @@ h6 {
     user-select: none;
 }
 
-p {
-    font-size: 1.25em;
-    line-height: 1.6;
-    color: #000;
-}
 
 hr {
     max-width: 400px;
@@ -206,7 +201,7 @@ h2{
     line-height: 0px;
     text-align: center;
     user-select: none;
-    height: 6px;
+    height: 7px;
 }
 
 @font-face {
@@ -217,7 +212,7 @@ h2{
          url("../fonts/Lalezar.woff") format('woff');
     }
     body {
-  font-family: lalezar;
+  
   direction: rtl;
   user-select: none;
    }
@@ -247,9 +242,9 @@ h2{
     height: 100%;
     width: 100%;
     background-color:  #eff4f4;
-    border-right: 6px solid #444444;
+    border-right: 5px solid #444444;
     animation: animate 5s steps(12) infinite;
-    margin-top: 1px;
+    margin-top: 0px;
 }
 @keyframes animate{
     40%, 60%{
@@ -262,8 +257,21 @@ h2{
     }
 }
 
-b{
-    font-size: 15px;
-    font-family: iransansdn;
+
+@font-face {
+    font-family: vazir;
+    font-style: normal;
+    font-weight: 400;
+    src: url("fonts/Vazir-Regular.eot");
+    src: url("fonts/Vazir-Regular.woff") format("woff"),
+      url("fonts/Vazir-Regular.ttf") format("ttf"),
+      url("fonts/Vazir-Regular.woff2") format("woff2");
 }
 
+p {
+    line-height: 1.9;
+    color: #000;
+    font-size: 15px;
+    font-family: vazir;
+    direction: rtl;
+}
