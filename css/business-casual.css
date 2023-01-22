@@ -273,3 +273,6 @@ p {
     font-family: vazir;
     direction: rtl;
 }
+div {
+    text-align: justify;
+}
