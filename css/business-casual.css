@@ -270,10 +270,11 @@ h2{
 p {
     line-height: 1.9;
     color: #000;
-    font-size: 16px;
+    font-size: 18px;
     font-family: vazir;
     direction: rtl;
 }
+
 div {
     text-align: justify;
 }
