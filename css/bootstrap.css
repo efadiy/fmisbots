@@ -1,7 +1,11 @@
 @font-face {
-  font-family: iranian sans;
-  src: url("Iranian Sans.ttf");
-  }
+  font-family: vazir;
+  font-style: normal;
+  font-weight: 400;
+  src: url("fonts/Vazir-Regular.woff") format("woff"),
+    url("fonts/Vazir-Regular.ttf") format("truetype"),
+    url("fonts/Vazir-Regular.woff2") format("woff2");
+}
 
 article,
 aside,
@@ -1064,7 +1068,7 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: vazir;
   font-size: 14px;
   line-height: 1.42857143;
   color: #333;
@@ -5814,7 +5818,7 @@ button.close {
   position: absolute;
   z-index: 1070;
   display: block;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: vazir;
   font-size: 12px;
   font-weight: normal;
   line-height: 1.4;
@@ -5922,7 +5926,7 @@ button.close {
   display: none;
   max-width: 276px;
   padding: 1px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: vazir;
   font-size: 14px;
   font-weight: normal;
   line-height: 1.42857143;
