@@ -226,13 +226,13 @@ h2{
 .container .text{
     position: relative;
     color: #444444;
-    font-size: 38px;
+    font-size: 40px;
     font-weight: 600;
 }
 
 .container .text.first-text{
     color: #444444;
-    font-size: 30px;
+    font-size: 40px;
 }
 .text.sec-text::before{
     content: "";
@@ -285,8 +285,9 @@ text-align: center;
 color: #444444;
 margin-bottom: 33.3333px;
 margin-top: 37.3311px;
-font-size: 38px;
+font-size: 40px;
 }
+
 h8,
 h9,
 h10,
@@ -299,7 +300,27 @@ font-size: 18px;
     width: 100%;
     text-align: center;
     color: #444444;
-    margin-bottom: 3.3333px;
-    margin-top: 37.3311px;
-    font-size: 38px;
+    margin-bottom: 34.3333px;
+    margin-top: 36.3311px;
+    font-size: 40px;
+}
+p3{
+    font-family: lalezar;
+    position: relative;
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.container2{
+background: #35373a;
+
+}
+
+p4{
+    line-height: 1.7;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-family: vazir;
+    direction: rtl;
 }
