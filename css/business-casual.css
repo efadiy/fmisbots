@@ -80,7 +80,7 @@ hr {
     margin-bottom: 20px;
     padding: 30px 8px;
     background: rgb(0, 0, 0);
-    background: #373c3c;
+    background: #c7d1d7;
     user-select: none;
 }
 
@@ -220,18 +220,18 @@ h2{
     position: relative;
     margin-right: auto;
     width: 100%;
-    color: #ffffff;
+    color: #444444;
 }
 
 .container .text{
     position: relative;
-    color: #ffffff;
+    color: #444444;
     font-size: 40px;
     font-weight: 600;
 }
 
 .container .text.first-text{
-    color: #ffffff;
+    color: #444444;
     font-size: 40px;
 }
 .text.sec-text::before{
@@ -241,8 +241,8 @@ h2{
     right: 0;
     height: 100%;
     width: 100%;
-    background-color:  #373c3c;
-    border-right: 5px solid #ffffff;
+    background-color:  #c7d1d7;
+    border-right: 5px solid #444444;
     animation: animate 5s steps(12) infinite;
     margin-top: 0px;
 }
@@ -267,7 +267,7 @@ h2{
 
 p {
     line-height: 2;
-    color: rgb(255, 255, 255);
+    color: #444444;
     font-size: 19px;
     font-family: IRANSANSDN;
     direction: rtl;
@@ -281,7 +281,7 @@ div {
 .cetered-title{
 width: 100%;
 text-align: center;
-color: #ffffff;
+color: #444444;
 margin-bottom: 33.3333px;
 margin-top: 37.3311px;
 font-size: 40px;
@@ -298,7 +298,7 @@ font-size: 18px;
 .cetered-title2{
     width: 100%;
     text-align: center;
-    color: #ffffff;
+    color: #444444;
     margin-bottom: 34.3333px;
     margin-top: 36.3311px;
     font-size: 40px;
@@ -312,7 +312,7 @@ p3{
 }
 
 p4{
-    color: rgb(255, 255, 255);
+    color: #ffffff;
     line-height: 2;
     font-size: 16px;
     font-family: IRANSANSDN;
