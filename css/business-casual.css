@@ -20,7 +20,7 @@ h4,
 h5,
 h6 {
     text-transform: uppercase;
-    font-family: vazir;
+    font-family: IRANSANSDN;
     font-weight: 700;
     letter-spacing: 1px;
     user-select: none;
@@ -105,8 +105,8 @@ hr {
 }
 
 footer {
-    background: #fff;
-    background: rgba(255,255,255,0.9);
+    background:  #35373a;
+    background:  #35373a;
 }
 
 footer p {
@@ -271,7 +271,7 @@ p {
     line-height: 1.7;
     color: #000;
     font-size: 19px;
-    font-family: vazir;
+    font-family: IRANSANSDN;
     direction: rtl;
 }
 
@@ -313,7 +313,7 @@ p3{
 }
 
 .container2{
-background: #35373a;
+background: #6d6d6d;
 
 }
 
@@ -321,6 +321,13 @@ p4{
     line-height: 1.7;
     color: rgb(255, 255, 255);
     font-size: 16px;
-    font-family: vazir;
+    font-family: IRANSANSDN;
     direction: rtl;
+}
+
+@font-face {
+    font-family: IRANSANSDN;
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/IRANSANSDN.TTF") format("truetype")
 }
