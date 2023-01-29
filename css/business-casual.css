@@ -268,11 +268,12 @@ h2{
 }
 
 p {
-    line-height: 1.7;
+    line-height: 2;
     color: #000;
     font-size: 19px;
     font-family: IRANSANSDN;
     direction: rtl;
+    letter-spacing: -1.5px;
 }
 
 div {
@@ -318,11 +319,12 @@ background: #6d6d6d;
 }
 
 p4{
-    line-height: 1.7;
     color: rgb(255, 255, 255);
+    line-height: 2;
     font-size: 16px;
     font-family: IRANSANSDN;
     direction: rtl;
+    letter-spacing: -1.3px;
 }
 
 @font-face {
