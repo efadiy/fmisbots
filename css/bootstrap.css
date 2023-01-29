@@ -1,10 +1,8 @@
 @font-face {
-  font-family: vazir;
+  font-family: IRANSANSDN;
   font-style: normal;
   font-weight: 400;
-  src: url("fonts/Vazir-Regular.woff") format("woff"),
-    url("fonts/Vazir-Regular.ttf") format("truetype"),
-    url("fonts/Vazir-Regular.woff2") format("woff2");
+  src: url("../fonts/IRANSANSDN.TTF") format("truetype")
 }
 
 article,
@@ -1068,11 +1066,11 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  font-family: vazir;
+  font-family: IRANSANSDN;
   font-size: 14px;
   line-height: 1.42857143;
   color: #333;
-  background-color: #fff;
+  background-color: rgb(255, 255, 255);
 }
 input,
 button,
@@ -4373,8 +4371,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-default {
-  background-color: #f8f8f8;
-  border-color: #e7e7e7;
+  background-color: #373c3c;
+  border-color: #373c3c;
 }
 .navbar-default .navbar-brand {
   color: #777;
@@ -5818,7 +5816,7 @@ button.close {
   position: absolute;
   z-index: 1070;
   display: block;
-  font-family: vazir;
+  font-family: IRANSANSDN;
   font-size: 12px;
   font-weight: normal;
   line-height: 1.4;
@@ -5926,7 +5924,7 @@ button.close {
   display: none;
   max-width: 276px;
   padding: 1px;
-  font-family: vazir;
+  font-family: IRANSANSDN;
   font-size: 14px;
   font-weight: normal;
   line-height: 1.42857143;
