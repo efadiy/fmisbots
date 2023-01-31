@@ -42,6 +42,7 @@ hr {
     text-transform: uppercase;
     font-weight: 900;
     letter-spacing: 2px;
+    color: #444444;
 }
 
 .navbar-nav {
@@ -291,8 +292,12 @@ h8,
 h9,
 h10,
 h11 {
-font-family: lalezar;
-font-size: 18px;
+font-family: IRANSANSDN;
+font-size: 15px;
+direction: rtl;
+list-style-image: none;
+list-style-position: outside;
+color: rgb(36, 36, 36);
 }
 
 .cetered-title2{
@@ -325,4 +330,15 @@ p4{
     font-style: normal;
     font-weight: 400;
     src: url("../fonts/IRANSANSDN.TTF") format("truetype")
+}
+
+footer{
+    width: 372px;
+    margin: -8px;
+}
+.collapse navbar-collapse{
+    position: fixed;
+}
+.navbar-collapsez{
+    position: fixed;
 }
