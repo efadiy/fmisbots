@@ -43,6 +43,8 @@ hr {
     font-weight: 900;
     letter-spacing: 2px;
     color: #444444;
+    font-family: lalezar;
+    font-size: 23px;
 }
 
 .navbar-nav {
@@ -221,18 +223,18 @@ h2{
     position: relative;
     margin-right: auto;
     width: 100%;
-    color: #444444;
+    color: rgb(68, 68, 68);
 }
 
 .container .text{
     position: relative;
-    color: #444444;
+    color: rgb(68, 68, 68);
     font-size: 40px;
     font-weight: 600;
 }
 
 .container .text.first-text{
-    color: #444444;
+    color: rgb(68, 68, 68);
     font-size: 40px;
 }
 .text.sec-text::before{
@@ -268,7 +270,7 @@ h2{
 
 p {
     line-height: 2;
-    color: #444444;
+    color: rgb(68, 68, 68);
     font-size: 19px;
     font-family: IRANSANSDN;
     direction: rtl;
@@ -282,7 +284,7 @@ div {
 .cetered-title{
 width: 100%;
 text-align: center;
-color: #444444;
+color: rgb(68, 68, 68);
 margin-bottom: 33.3333px;
 margin-top: 37.3311px;
 font-size: 40px;
@@ -293,17 +295,18 @@ h9,
 h10,
 h11 {
 font-family: IRANSANSDN;
-font-size: 15px;
+font-size: 14px;
 direction: rtl;
 list-style-image: none;
 list-style-position: outside;
-color: rgb(36, 36, 36);
+color: rgb(68, 68, 68);
+font-weight: 500;
 }
 
 .cetered-title2{
     width: 100%;
     text-align: center;
-    color: #444444;
+    color: rgb(68, 68, 68);
     margin-bottom: 34.3333px;
     margin-top: 36.3311px;
     font-size: 40px;
@@ -333,12 +336,7 @@ p4{
 }
 
 footer{
-    width: 372px;
+    width: 105%;
     margin: -8px;
-}
-.collapse navbar-collapse{
-    position: fixed;
-}
-.navbar-collapsez{
-    position: fixed;
+
 }
