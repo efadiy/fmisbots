@@ -42,7 +42,7 @@ hr {
     text-transform: uppercase;
     font-weight: 900;
     letter-spacing: 2px;
-    color: #444444;
+    color: rgb(68, 68, 68);
     font-family: lalezar;
     font-size: 23px;
 }
@@ -339,4 +339,7 @@ footer{
     width: 105%;
     margin: -8px;
 
+}
+.navbar{
+    background: #c7d1d7;
 }
