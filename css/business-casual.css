@@ -205,7 +205,8 @@ h2{
     text-align: center;
     user-select: none;
     height: 7px;
-    margin-top: 10px;
+    margin-top: 14px;
+    margin-bottom: 14px;
 }
 
 @font-face {
