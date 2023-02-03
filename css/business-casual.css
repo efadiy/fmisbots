@@ -226,7 +226,7 @@ h2{
     margin-right: auto;
     width: 100%;
     color: rgb(68, 68, 68);
-    margin-top: 30px;
+    margin-top: 35px;
    }
 
 .container .text{
@@ -345,7 +345,7 @@ footer{
 }
 .navbar{
     background: #c7d1d7;
-    margin-top: -30px;
+    margin-top: -35px;
 }
 .row2{ 
        position: fixed;  
