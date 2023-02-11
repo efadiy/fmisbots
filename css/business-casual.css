@@ -6,7 +6,7 @@
 
 body {
 
-    background: #115379;
+    background: #00163d;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -42,7 +42,7 @@ hr {
     text-transform: uppercase;
     font-weight: 900;
     letter-spacing: 2px;
-    color: rgb(68, 68, 68);
+    color: white;
     font-family: lalezar;
     font-size: 25px;
 }
@@ -82,9 +82,9 @@ hr {
 .box {
     margin-bottom: 20px;
     padding: 30px 8px;
-    background: rgb(0, 0, 0);
-    background: #c7d1d7;
+    background: #121b22;
     user-select: none;
+    border-radius: 7px;
 }
 
 .intro-text {
@@ -225,19 +225,19 @@ h2{
     position: relative;
     margin-right: auto;
     width: 100%;
-    color: rgb(68, 68, 68);
+    color: white;
     margin-top: 24px;
    }
 
 .container .text{
     position: relative;
-    color: rgb(68, 68, 68);
+    color: white;
     font-size: 40px;
     font-weight: 600;
 }
 
 .container .text.first-text{
-    color: rgb(68, 68, 68);
+    color: white;
     font-size: 40px;
 }
 .text.sec-text::before{
@@ -247,8 +247,8 @@ h2{
     right: 0;
     height: 100%;
     width: 100%;
-    background-color:  #c7d1d7;
-    border-right: 5px solid #444444;
+    background-color:  #121b22;
+    border-right: 5px solid white;
     animation: animate 5s steps(12) infinite;
     margin-top: 0px;
 }
@@ -273,7 +273,7 @@ h2{
 
 p {
     line-height: 2;
-    color: rgb(68, 68, 68);
+    color: white;
     font-size: 19px;
     font-family: IRANSANSDN;
     direction: rtl;
@@ -287,7 +287,7 @@ div {
 .cetered-title{
 width: 100%;
 text-align: center;
-color: rgb(68, 68, 68);
+color: white;
 margin-bottom: 33.3333px;
 margin-top: 37.3311px;
 font-size: 40px;
@@ -302,14 +302,14 @@ font-size: 14px;
 direction: rtl;
 list-style-image: none;
 list-style-position: outside;
-color: rgb(68, 68, 68);
+color: white;
 font-weight: 500;
 }
 
 .cetered-title2{
     width: 100%;
     text-align: center;
-    color: rgb(68, 68, 68);
+    color: white;
     margin-bottom: 34.3333px;
     margin-top: 36.3311px;
     font-size: 40px;
@@ -344,7 +344,7 @@ footer{
 
 }
 .navbar{
-    background: #c7d1d7;
+    background: #00163d;
     margin-top: -24px;
 }
 .row2{ 
@@ -358,6 +358,7 @@ h14{
     font-size: 23px;
     font-family: lalezar;
     left: 0;
+    color: white;
 }   
 #rr{
     margin-top: -3px;
@@ -374,4 +375,52 @@ h14{
         left:50%;
         transform:translate(-50%,-50%);
     }
+}
+
+p8{
+    margin-top: -5px;
+    line-height: 2;
+    color: white;
+    font-size: 19px;
+    font-family: IRANSANSDN;
+    direction: rtl;
+    letter-spacing: -1.3px;
+}
+p9{
+    line-height: 2;
+    color: white;
+    font-size: 138%;
+    font-family: bold,IRANSANSDN;
+    direction: rtl;
+    letter-spacing: -1.3px;
+}
+
+h18{
+    user-select: none;
+    width: 100%;
+    font-size: 28px;
+    font-family: lalezar;
+    top: 30px;
+    float: right;
+    right: auto;
+}
+
+.br2{
+    margin-bottom: 40px;
+}
+
+img{
+    border-radius: 45px;
+    margin: 25px ;
+   user-select: none;
+}
+
+.alert-txto{
+    user-select: none;
+    font-size: 21px;
+    font-family: bold,IRANSANSDN;
+    direction: rtl;
+    letter-spacing: -1.3px;
+    line-height: 2;
+    margin-top: -5px;
 }
