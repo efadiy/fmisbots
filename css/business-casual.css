@@ -432,6 +432,7 @@ p15{
     letter-spacing: -0.8px;
     width: 200px;
     margin: 48px; 
+    margin-top: -2px;
 }
 
 p20{
@@ -440,4 +441,30 @@ p20{
     font-family: IRANSANSDN;
     direction: rtl;
     letter-spacing: -0.8px;
+}
+
+.cutmain2{
+    background-color: #0d1116;
+    padding: 10px 0;
+    width: 105%;
+    margin: -8px;
+    -webkit-transform: skew(0deg, -3deg);
+    -moz-transform: skew(0deg, -3deg);
+    -ms-transform: skew(0deg, -3deg);
+    -o-transform: skew(0deg, -3deg);
+    transform: skew(0deg, -3deg);
+    margin-top: -20px;
+}
+
+.cutmain3{
+    background-color: #0d1116;
+    padding: 0px 0;
+    width: 105%;
+    margin: -8px;
+    -webkit-transform: skew(0deg, -3deg);
+    -moz-transform: skew(0deg, -3deg);
+    -ms-transform: skew(0deg, -3deg);
+    -o-transform: skew(0deg, -3deg);
+    transform: skew(0deg, -3deg);
+    margin-top: -30px;
 }
