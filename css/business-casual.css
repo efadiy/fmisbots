@@ -108,8 +108,7 @@ hr {
 }
 
 footer {
-    background:  #0d1116;
-    
+    background:  #0d1116;  
 }
 
 footer p {
@@ -341,7 +340,6 @@ p4{
 footer{
     width: 105%;
     margin: -8px;
-
 }
 .navbar{
     background: #00163d;
@@ -425,3 +423,21 @@ img{
     margin-top: -5px;
 }
 
+p15{
+    color: #ffffff;
+    line-height: 2;
+    font-size: 15px;
+    font-family: IRANSANSDN;
+    direction: rtl;
+    letter-spacing: -0.8px;
+    width: 200px;
+    margin: 48px; 
+}
+
+p20{
+    line-height: 2;
+    font-size: 16px;
+    font-family: IRANSANSDN;
+    direction: rtl;
+    letter-spacing: -0.8px;
+}
